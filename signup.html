@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up - NolanAI</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar container">
+      <a href="index.php" class="logo">NolanAI</a>
+      <ul class="nav-menu">
+        <li><a href="login.html" class="nav-link">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main class="auth-container">
+    <section class="auth-form">
+      <h2 class="section-title">Create Account</h2>
+      <form action="signup.php" method="POST" class="form">
+        <div class="form-group">
+          <input type="text" 
+                 name="username" 
+                 class="form-input" 
+                 placeholder="Username" 
+                 required>
+        </div>
+        <div class="form-group">
+          <input type="email" 
+                 name="email" 
+                 class="form-input" 
+                 placeholder="Email Address" 
+                 required>
+        </div>
+        <div class="form-group">
+          <input type="password" 
+                 name="password" 
+                 class="form-input" 
+                 placeholder="Password" 
+                 required>
+        </div>
+        <button type="submit" class="btn btn-block">Create Account</button>
+      </form>
+      <p class="auth-alt">Already have an account? <a href="login.html" class="auth-link">Login here</a></p>
+    </section>
+  </main>
+</body>
+</html>
