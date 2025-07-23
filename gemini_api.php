@@ -3,7 +3,7 @@ session_start(); // Required to use $_SESSION['user_id']
 include 'db.php'; // Make sure this connects to your MySQL database
 
 $prompt = $_POST['prompt'];
-$apiKey = "AIzaSyCW3CDtmr4tmkxtOZTrQZVAx84CfTTzcgY";  // Replace with your real key
+$apiKey = "xxxxxxxx";  // Replace with your real key
 
 $url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" . $apiKey;
 
